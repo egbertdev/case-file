@@ -1,7 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Special+Elite&family=Lora&display=swap');
-@import "tailwindcss";
+@import 'tailwindcss';
 
 @theme {
   --font-special: 'Special Elite', cursive;
   --font-lora: 'Lora', serif;
+  --color-paper: #f0e6d3;
+}
+
+.paper-scrollbar::-webkit-scrollbar {
+  width: 8px;
+}
+
+.paper-scrollbar::-webkit-scrollbar-track {
+  background: #f0e6d3;
+  border-radius: 4px;
+}
+
+.paper-scrollbar::-webkit-scrollbar-thumb {
+  background: #d4c4a8;
+  border-radius: 4px;
+}
+
+.paper-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #b8a98c;
 }

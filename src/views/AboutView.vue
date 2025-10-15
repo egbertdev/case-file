@@ -1,15 +1,53 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+  <MainLayout>
+    <!-- Personnel File Content -->
+    <div class="space-y-8">
+      <!-- Identity Section -->
+      <div class="border-b border-gray-300 pb-4">
+        <h1 class="text-4xl font-special mb-2">IDENTITY</h1>
+        <p class="text-xl font-lora"><strong>Name:</strong> Egbert Joel</p>
+        <p class="text-xl font-lora"><strong>Title:</strong> Full-Stack Developer</p>
+        <p class="text-lg font-lora text-gray-600">
+          "Solving digital mysteries through clean code and architecture"
+        </p>
+      </div>
+
+      <!-- History & Motives -->
+      <div class="border-b border-gray-300 pb-4">
+        <h2 class="text-3xl font-special mb-4">HISTORY & MOTIVES</h2>
+        <p class="font-lora text-lg leading-relaxed">
+          Started investigating code mysteries 3 years ago after discovering a passion for turning
+          complex problems into elegant solutions. What began as curiosity about how websites work
+          evolved into a full-scale operation into full-stack development. Currently specializing in
+          uncovering architectural flaws and building scalable systems that stand up to
+          interrogation.
+        </p>
+      </div>
+
+      <!-- Specialties -->
+      <div class="border-b border-gray-300 pb-4">
+        <h2 class="text-3xl font-special mb-4">SPECIALTIES</h2>
+        <ul class="font-lora text-lg space-y-2">
+          <li>• Problem Solving & Debugging</li>
+          <li>• System Architecture Investigation</li>
+          <li>• UI/UX Forensics</li>
+          <li>• API Integration Decryption</li>
+        </ul>
+      </div>
+
+      <!-- Background -->
+      <div>
+        <h2 class="text-3xl font-special mb-4">BACKGROUND</h2>
+        <p class="font-lora text-lg leading-relaxed">
+          Formal training in computer science with additional field experience building real-world
+          applications. Currently pursuing advanced techniques in cloud infrastructure and system
+          design. When not on a case, studying new investigative methodologies and tools.
+        </p>
+      </div>
+    </div>
+  </MainLayout>
 </template>
 
-<style>
-@media (min-width: 1024px) {
-  .about {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-  }
-}
-</style>
+<script setup>
+import MainLayout from '@/layouts/MainLayout.vue'
+</script>
