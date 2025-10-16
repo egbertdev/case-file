@@ -14,7 +14,7 @@
   background-size: cover;
   background-position: center;
   min-height: 100vh;
-  padding: 20px;
+  padding: 10px; /* Reduced from 20px for mobile */
   position: relative;
 }
 
@@ -25,7 +25,11 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: radial-gradient(circle at center, transparent 30%, rgba(0, 0, 0, 0.7) 100%);
+  background: radial-gradient(
+    circle at center,
+    transparent 20%,
+    /* Tighter vignette on mobile */ rgba(0, 0, 0, 0.7) 100%
+  );
   pointer-events: none;
   z-index: 1;
 }
@@ -35,17 +39,24 @@
   z-index: 2;
 }
 
-/* Page transitions - slower version */
+/* Page transitions */
 .page-enter-active,
 .page-leave-active {
   transition:
     opacity 0.5s,
-    transform 0.5s; /* Changed from 0.3s to 0.5s */
+    transform 0.5s;
 }
 
 .page-enter-from,
 .page-leave-to {
   opacity: 0;
   transform: translateY(10px);
+}
+
+/* Mobile-specific adjustments */
+@media (max-width: 768px) {
+  .desk {
+    padding: 8px; /* Even tighter on very small screens */
+  }
 }
 </style>

@@ -1,67 +1,69 @@
 <template>
   <MainLayout>
-    <h1 class="text-4xl font-special mb-8">CONTACT PROTOCOLS</h1>
+    <h1 class="text-3xl md:text-4xl font-special mb-6 md:mb-8">CONTACT PROTOCOLS</h1>
 
-    <div class="space-y-8">
+    <div class="space-y-6 md:space-y-8">
       <!-- Status Card -->
-      <div class="bg-paper border border-gray-300 rounded-lg p-6 font-lora">
-        <h2 class="text-2xl font-special mb-4">OPERATIONAL STATUS</h2>
-        <div class="grid grid-cols-2 gap-4">
+      <div class="bg-paper border border-gray-300 rounded-lg p-4 md:p-6 font-lora">
+        <h2 class="text-xl md:text-2xl font-special mb-3 md:mb-4">OPERATIONAL STATUS</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-4">
           <div>
-            <h3 class="font-bold text-lg">CURRENT LOCATION</h3>
-            <p class="text-gray-600">Nairobi, Kenya</p>
+            <h3 class="font-bold text-base md:text-lg">CURRENT LOCATION</h3>
+            <p class="text-gray-600 text-sm md:text-base">Nairobi, Kenya</p>
           </div>
           <div>
-            <h3 class="font-bold text-lg">STATUS</h3>
-            <p class="text-green-600">Available for investigations</p>
+            <h3 class="font-bold text-base md:text-lg">STATUS</h3>
+            <p class="text-green-600 text-sm md:text-base">Available for investigations</p>
           </div>
           <div>
-            <h3 class="font-bold text-lg">RESPONSE TIME</h3>
-            <p class="text-gray-600">24-48 hours</p>
+            <h3 class="font-bold text-base md:text-lg">RESPONSE TIME</h3>
+            <p class="text-gray-600 text-sm md:text-base">24-48 hours</p>
           </div>
           <div>
-            <h3 class="font-bold text-lg">TIMEZONE</h3>
-            <p class="text-gray-600">EAT (UTC+3)</p>
+            <h3 class="font-bold text-base md:text-lg">TIMEZONE</h3>
+            <p class="text-gray-600 text-sm md:text-base">EAT (UTC+3)</p>
           </div>
         </div>
       </div>
 
       <!-- Communication Channels -->
       <div>
-        <h2 class="text-2xl font-special mb-4">COMMUNICATION CHANNELS</h2>
-        <div class="grid grid-cols-3 gap-4 font-lora">
+        <h2 class="text-xl md:text-2xl font-special mb-3 md:mb-4">COMMUNICATION CHANNELS</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-3 md:gap-4 font-lora">
           <a
             href="mailto:your-email@example.com"
-            class="bg-paper p-4 border border-gray-300 rounded hover:shadow-md transition-shadow"
+            class="bg-paper p-3 md:p-4 border border-gray-300 rounded hover:shadow-md transition-shadow"
           >
-            <h3 class="font-bold text-lg">📧 ENCRYPTED MESSAGE</h3>
-            <p class="text-gray-600">Primary Channel</p>
+            <h3 class="font-bold text-base md:text-lg">📧 ENCRYPTED MESSAGE</h3>
+            <p class="text-gray-600 text-sm md:text-base">Primary Channel</p>
           </a>
 
           <a
             href="https://wa.me/your-number"
-            class="bg-paper p-4 border border-gray-300 rounded hover:shadow-md transition-shadow"
+            class="bg-paper p-3 md:p-4 border border-gray-300 rounded hover:shadow-md transition-shadow"
           >
-            <h3 class="font-bold text-lg">💬 DIRECT MESSAGE</h3>
-            <p class="text-gray-600">Urgent Matters</p>
+            <h3 class="font-bold text-base md:text-lg">💬 DIRECT MESSAGE</h3>
+            <p class="text-gray-600 text-sm md:text-base">Urgent Matters</p>
           </a>
 
           <a
             href="https://tiktok.com/@your-profile"
-            class="bg-paper p-4 border border-gray-300 rounded hover:shadow-md transition-shadow"
+            class="bg-paper p-3 md:p-4 border border-gray-300 rounded hover:shadow-md transition-shadow"
           >
-            <h3 class="font-bold text-lg">🎬 OBSERVE SUBJECT</h3>
-            <p class="text-gray-600">Content & Updates</p>
+            <h3 class="font-bold text-base md:text-lg">🎬 OBSERVE SUBJECT</h3>
+            <p class="text-gray-600 text-sm md:text-base">Content & Updates</p>
           </a>
         </div>
       </div>
 
       <!-- Call to Action -->
-      <div class="text-center border-t border-gray-300 pt-6">
-        <p class="font-lora text-lg mb-4">Ready to discuss your next investigation?</p>
+      <div class="text-center border-t border-gray-300 pt-4 md:pt-6">
+        <p class="font-lora text-base md:text-lg mb-3 md:mb-4">
+          Ready to discuss your next investigation?
+        </p>
         <a
           href="mailto:your-email@example.com"
-          class="bg-red-800 text-white px-8 py-3 rounded-lg font-special hover:bg-red-700 transition-colors inline-block"
+          class="bg-red-800 text-white px-6 py-2 md:px-8 md:py-3 rounded-lg font-special text-sm md:text-base hover:bg-red-700 transition-colors inline-block"
         >
           INITIATE CONTACT
         </a>
