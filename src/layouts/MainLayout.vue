@@ -3,7 +3,7 @@
     <div class="relative inner">
       <!-- Open Folder Background -->
       <img
-        src="@/assets/open-folder.png"
+        src="@/assets/open-folder.webp"
         alt="Open File"
         class="w-[95vw] max-w-[800px] mobile-folder-height"
       />
