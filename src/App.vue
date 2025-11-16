@@ -14,7 +14,7 @@
   background-size: cover;
   background-position: center;
   min-height: 100vh;
-  padding: 10px; /* Reduced from 20px for mobile */
+  padding: 10px;
   position: relative;
 }
 
@@ -25,11 +25,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: radial-gradient(
-    circle at center,
-    transparent 20%,
-    /* Tighter vignette on mobile */ rgba(0, 0, 0, 0.7) 100%
-  );
+  background: radial-gradient(circle at center, transparent 20%, rgba(0, 0, 0, 0.7) 100%);
   pointer-events: none;
   z-index: 1;
 }
@@ -56,7 +52,7 @@
 /* Mobile-specific adjustments */
 @media (max-width: 768px) {
   .desk {
-    padding: 8px; /* Even tighter on very small screens */
+    padding: 8px;
   }
 }
 </style>
