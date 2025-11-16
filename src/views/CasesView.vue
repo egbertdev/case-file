@@ -11,7 +11,7 @@
           <h2 class="text-xl md:text-2xl font-special">CASE #001: MULTITENANT SAAS</h2>
           <span
             class="bg-green-100 text-green-800 px-2 py-1 rounded font-special text-sm self-start md:self-auto"
-            >CLOSED</span
+            >ACTIVE</span
           >
         </div>
         <p class="font-lora text-base md:text-lg mb-3 md:mb-4">
@@ -19,12 +19,12 @@
           isolated data, authentication, and billing systems.
         </p>
         <div class="flex flex-col md:flex-row gap-3 md:gap-4 md:space-x-4">
-          <RouterLink
-            to="/cases/multitenant-saas"
-            class="bg-red-800 text-white px-4 py-2 rounded font-special hover:bg-red-700 transition-colors text-center md:text-left"
+          <button
+            disabled
+            class="bg-gray-400 text-white px-4 py-2 rounded font-special cursor-not-allowed text-center md:text-left"
           >
             VIEW FILE
-          </RouterLink>
+          </button>
           <span
             class="font-lora text-gray-600 text-sm md:text-base self-center text-center md:text-left"
             >Vue • Laravel • MySQL • Docker</span
@@ -40,7 +40,7 @@
           <h2 class="text-xl md:text-2xl font-special">CASE #002: BOOKING APPLICATION</h2>
           <span
             class="bg-green-100 text-green-800 px-2 py-1 rounded font-special text-sm self-start md:self-auto"
-            >CLOSED</span
+            >ACTIVE</span
           >
         </div>
         <p class="font-lora text-base md:text-lg mb-3 md:mb-4">
@@ -48,15 +48,15 @@
           dashboard for business management.
         </p>
         <div class="flex flex-col md:flex-row gap-3 md:gap-4 md:space-x-4">
-          <RouterLink
-            to="/cases/booking-app"
-            class="bg-red-800 text-white px-4 py-2 rounded font-special hover:bg-red-700 transition-colors text-center md:text-left"
+          <button
+            disabled
+            class="bg-gray-400 text-white px-4 py-2 rounded font-special cursor-not-allowed text-center md:text-left"
           >
             VIEW FILE
-          </RouterLink>
+          </button>
           <span
             class="font-lora text-gray-600 text-sm md:text-base self-center text-center md:text-left"
-            >React • Node.js • MongoDB • Stripe</span
+            >Vue • Laravel • MySQL • Docker</span
           >
         </div>
       </div>
@@ -66,7 +66,7 @@
         <div
           class="flex flex-col md:flex-row md:justify-between md:items-start mb-3 md:mb-4 gap-2 md:gap-0"
         >
-          <h2 class="text-xl md:text-2xl font-special">CASE #003: MQL5 PORTFOLIO</h2>
+          <h2 class="text-xl md:text-2xl font-special">CASE #003: ALGORITHMIC TRADING SERVICE</h2>
           <span
             class="bg-green-100 text-green-800 px-2 py-1 rounded font-special text-sm self-start md:self-auto"
             >ACTIVE</span
@@ -77,12 +77,13 @@
           using MQL5 programming language.
         </p>
         <div class="flex flex-col md:flex-row gap-3 md:gap-4 md:space-x-4">
-          <RouterLink
-            to="/cases/mql5-portfolio"
+          <a
+            href="https://algopilot.netlify.app"
+            target="_blank"
             class="bg-red-800 text-white px-4 py-2 rounded font-special hover:bg-red-700 transition-colors text-center md:text-left"
           >
             VIEW FILE
-          </RouterLink>
+          </a>
           <span
             class="font-lora text-gray-600 text-sm md:text-base self-center text-center md:text-left"
             >MQL5 • MetaTrader • Algorithmic Trading</span
@@ -95,5 +96,4 @@
 
 <script setup>
 import MainLayout from '@/layouts/MainLayout.vue'
-import { RouterLink } from 'vue-router'
 </script>

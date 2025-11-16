@@ -39,9 +39,8 @@
       <div>
         <h2 class="text-2xl md:text-3xl font-special mb-3 md:mb-4">BACKGROUND</h2>
         <p class="font-lora text-base md:text-lg leading-relaxed">
-          Formal training in computer science with additional field experience building real-world
-          applications. Currently pursuing advanced techniques in cloud infrastructure and system
-          design. When not on a case, studying new investigative methodologies and tools.
+          A background in mechanical engineering, focused on building robust software systems. I
+          approach code like a complex machine—every part must fit and function perfectly.
         </p>
       </div>
     </div>
