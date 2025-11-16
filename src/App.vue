@@ -10,7 +10,7 @@
 
 <style>
 .desk {
-  background: url('./assets/wood-texture.jpg');
+  background: url('./assets/wood-texture-mobile.webp');
   background-size: cover;
   background-position: center;
   min-height: 100vh;
@@ -53,6 +53,13 @@
 @media (max-width: 768px) {
   .desk {
     padding: 8px;
+  }
+}
+
+/* Desktop background */
+@media (min-width: 769px) {
+  .desk {
+    background-image: url('./assets/wood-texture-desktop.webp');
   }
 }
 </style>

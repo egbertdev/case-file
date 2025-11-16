@@ -3,7 +3,7 @@
     <div class="relative">
       <!-- Folder Image -->
       <img
-        src="@/assets/closed-folder.png"
+        src="@/assets/closed-folder.webp"
         alt="Case File"
         class="w-[95vw] max-w-[600px] folder-entrance"
       />
