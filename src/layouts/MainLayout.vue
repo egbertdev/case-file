@@ -105,9 +105,14 @@
       <!-- Desktop Home Button -->
       <RouterLink
         to="/"
-        class="absolute top-6 right-12 hidden md:block bg-paper px-3 py-2 rounded-t-lg border border-gray-400 border-b-0 font-special text-sm hover:shadow-md transition-all"
+        class="absolute top-6 right-12 hidden md:flex items-center justify-center bg-paper px-3 py-2 rounded-t-lg border border-gray-400 border-b-0 font-special text-sm hover:shadow-md transition-all"
+        title="Home"
       >
-        HOME
+        <svg class="w-4 h-4 text-gray-800" fill="currentColor" viewBox="0 0 20 20">
+          <path
+            d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z"
+          />
+        </svg>
       </RouterLink>
 
       <!-- Paper Stack Area - Adjusted for taller folder -->

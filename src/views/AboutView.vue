@@ -16,11 +16,10 @@
       <div class="border-b border-gray-300 pb-3 md:pb-4">
         <h2 class="text-2xl md:text-3xl font-special mb-3 md:mb-4">HISTORY & MOTIVES</h2>
         <p class="font-lora text-base md:text-lg leading-relaxed">
-          Started investigating code mysteries 3 years ago after discovering a passion for turning
-          complex problems into elegant solutions. What began as curiosity about how websites work
-          evolved into a full-scale operation into full-stack development. Currently specializing in
-          uncovering architectural flaws and building scalable systems that stand up to
-          interrogation.
+          Deep undercover in the world of code, transforming complex problems into elegant
+          solutions. What began as curiosity about how websites work evolved into a full-scale
+          operation into full-stack development. Currently specializing in uncovering architectural
+          flaws and building scalable systems that stand up to interrogation.
         </p>
       </div>
 
