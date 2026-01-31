@@ -48,7 +48,7 @@
           </a>
 
           <a
-            href="https://www.tiktok.com/@__egbert__joel"
+            href="https://www.tiktok.com/@egbert_joel"
             target="_blank"
             class="bg-paper p-3 md:p-4 border border-gray-300 rounded hover:shadow-md transition-shadow"
           >
