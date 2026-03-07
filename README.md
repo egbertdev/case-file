@@ -1,6 +1,6 @@
 # 📂 CaseFile: A Detective-Themed Developer Portfolio
 
-**[Live Demo](https://bwandera.render.com/portfolio)** ## 📖 What is this?
+**[Live Demo](https://egbert-joel.vercel.app/)** ## 📖 What is this?
 CaseFile is my personal portfolio styled to look like an old-school detective’s folder. I built this to show that I’m not just a backend guy—I can build high-end, creative interfaces that actually feel real to the user.
 
 ## 🚀 How it Works (The Cool Stuff)
@@ -21,7 +21,7 @@ CaseFile is my personal portfolio styled to look like an old-school detective’
 This is a standard Vue project.
 
 1. Clone the repo:
-   git clone https://github.com/yourusername/case-file.git
+   git clone https://github.com/egbertdev/case-file.git
 
 2. Install and Run:
    npm install
