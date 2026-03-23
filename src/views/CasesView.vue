@@ -98,7 +98,67 @@
           class="flex flex-col md:flex-row md:justify-between md:items-start mb-3 md:mb-4 gap-2 md:gap-0"
         >
           <h2 class="text-xl md:text-2xl font-special uppercase text-gray-900">
-            CASE #004: CASE-STYLED INTERFACE
+            CASE #005: UN DATA SYNCHRONIZATION ENGINE
+          </h2>
+          <span
+            class="bg-green-100 text-green-800 px-2 py-1 rounded font-special text-sm self-start md:self-auto"
+            >LIVE</span
+          >
+        </div>
+        <p class="font-lora text-base md:text-lg mb-3 md:mb-4 text-gray-700 leading-relaxed">
+          Automated VLR tracking system for UN SDG data. Orchestrates headless Selenium scrapers
+          with SQLite delta-checks to monitor and synchronize fragmented global records.
+        </p>
+        <div class="flex flex-col md:flex-row gap-3 md:gap-4 items-center">
+          <a
+            href="https://un-vr-scraper.onrender.com/"
+            target="_blank"
+            class="w-full md:w-auto bg-red-800 text-white px-6 py-2 rounded font-special hover:bg-red-700 transition-colors text-center uppercase tracking-wider"
+          >
+            VIEW FILE
+          </a>
+          <span class="font-lora text-gray-600 text-sm md:text-base italic"
+            >Python • Selenium • SQLite • Flask</span
+          >
+        </div>
+      </div>
+
+      <div class="bg-paper border border-gray-300 rounded-lg p-4 md:p-6 shadow-sm">
+        <div
+          class="flex flex-col md:flex-row md:justify-between md:items-start mb-3 md:mb-4 gap-2 md:gap-0"
+        >
+          <h2 class="text-xl md:text-2xl font-special uppercase text-gray-900">
+            CASE #006: PBOT STRATEGY SANDBOX
+          </h2>
+          <span
+            class="bg-blue-100 text-blue-800 px-2 py-1 rounded font-special text-sm self-start md:self-auto"
+            >TESTING</span
+          >
+        </div>
+        <p class="font-lora text-base md:text-lg mb-3 md:mb-4 text-gray-700 leading-relaxed">
+          High-frequency execution engine designed for statistical strategy stress-testing. Features
+          real-time WebSocket data monitoring and conditional gating logic.
+        </p>
+        <div class="flex flex-col md:flex-row gap-3 md:gap-4 items-center">
+          <a
+            href="https://www.youtube.com/watch?v=K9_tetFJyLo"
+            target="_blank"
+            class="w-full md:w-auto bg-red-800 text-white px-6 py-2 rounded font-special hover:bg-red-700 transition-colors text-center uppercase tracking-wider"
+          >
+            WATCH DEMO
+          </a>
+          <span class="font-lora text-gray-600 text-sm md:text-base italic"
+            >Python • Selenium • Tkinter • WebSockets</span
+          >
+        </div>
+      </div>
+
+      <div class="bg-paper border border-gray-300 rounded-lg p-4 md:p-6 shadow-sm">
+        <div
+          class="flex flex-col md:flex-row md:justify-between md:items-start mb-3 md:mb-4 gap-2 md:gap-0"
+        >
+          <h2 class="text-xl md:text-2xl font-special uppercase text-gray-900">
+            CASE #004: PORTFOLIO CORE
           </h2>
           <span
             class="bg-green-100 text-green-800 px-2 py-1 rounded font-special text-sm self-start md:self-auto"
